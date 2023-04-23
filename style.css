@@ -100,11 +100,6 @@
   font-weight: 900;
 }
 
-img {
-  width: 100%;
-  height: 100%;
-}
-
 .slider__bullet:focus, .slider__bullet:hover {
   border: 2px solid #000000;
   background-color: rgba(255, 255, 255, 0.237);
