@@ -1,0 +1,68 @@
+
+<link rel="stylesheet" href="./style.css">
+
+<div class="yourwebsite">
+    <div id="intro" class="slider glide glide--ltr glide--carousel glide--swipeable">
+        <div class="glide__arrows glide-home" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--prev" data-glide-dir="<">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16.1486" cy="15.9245" r="15.7993" fill="#636364"/><path d="M18.3707 20.3687L13.9266 15.9246L18.3707 11.4805" stroke="white" stroke-width="1.5"/></svg>
+            </button>
+            <button class="glide__arrow glide__arrow--next" data-glide-dir=">">
+                <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16.2477" cy="15.9245" r="15.7993" fill="#636364"/><path d="M14.0257 20.3687L18.4698 15.9246L14.0257 11.4805" stroke="white" stroke-width="1.5"/></svg>
+            </button>
+        </div>
+        <div class="slider__track glide__track" data-glide-el="track">
+            <ul class="slider__slides glide__slides">
+                <li class="slider__frame glide__slide 1">
+                    <div>
+                        <div>
+                            <p>Cras fringilla pulvinar rutrum.</p>
+                        </div>
+                    </div>
+                    <div class="pt-1">
+                        <p>
+                            Sed dolor diam, vulputate vitae orci vel, pharetra finibus risus. Donec ut metus rhoncus, pharetra ex in, rhoncus leo. In pretium rhoncus consectetur. In quis faucibus leo. Suspendisse leo justo, consequat ac dictum quis, bibendum maximus nulla. Suspendisse potenti. Morbi a mattis odio. Sed magna enim, venenatis quis semper vitae, luctus vel nibh. Pellentesque risus massa, maximus condimentum mattis eu, lacinia placerat velit. Praesent sagittis arcu eu congue fringilla. Duis scelerisque enim sed tempor imperdiet.
+                        </p>
+                    </div>
+                </li>
+                <li class="slider__frame glide__slide 2">
+                    <div>
+                        <div>
+                            <p>Proin massa massa</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>
+                            Vestibulum facilisis porta pulvinar. Pellentesque lobortis imperdiet orci, ut vulputate nisl fermentum a. Aenean nunc sapien, molestie quis augue eu, blandit dictum diam.
+                        </p>
+                    </div>
+                </li>
+                <li class="slider__frame glide__slide 3">
+                    <div>
+                        <div>
+                            <p>Pellentesque scelerisque</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>
+                            In pretium rhoncus consectetur. In quis faucibus leo. Suspendisse leo justo, consequat ac dictum quis, bibendum maximus nulla.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- partial -->
+    <script src="./script.js"></script>
+    <script>
+            var glide = new Glide('.glide', {
+                type: 'carousel',
+                focusAt: 'center',
+                perView: 1,
+                animationDuration: 300,
+                autoplay: false,
+                hoverpause: true,
+            })
+            glide.mount()
+    </script>
+</div>
